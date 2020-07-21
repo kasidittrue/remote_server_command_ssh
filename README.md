@@ -14,7 +14,7 @@ conda config --set ssl_verify no
 cd /data/prepaid/project  
 
 ## start up jupyter lab  
-**what for : connect to remote server jupyter lab **    
+**what for : connect to remote server jupyter lab**    
 
 ### in remote server (alrady ssh)  
 conda activate my_env  
