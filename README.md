@@ -18,7 +18,7 @@ cd /data/prepaid/project
 
 ### in remote server (alrady ssh)  
 conda activate my_env  
-jupyter notebook --no-browser --ip 172.20.46.157 --port ***YYYY*** --allow-root
+jupyter notebook --no-browser --ip 172.20.46.157 --port ***YYYY*** --allow-root  
 jupyter lab --no-browser --port=***YYYY*** --allow-root  
 
 ### in local mahine linux   
