@@ -16,6 +16,14 @@ cd /data/prepaid/project
 ## start up jupyter lab  
 **what for : connect to remote server jupyter lab**    
 
+### in remote xterm 
+cd /data/prepaid  
+jupyter lab --config jupyter_notebook_config.py --allow-root --no-browser  
+http://172.20.46.157:8888/  
+
+
+
+## obsolete
 ### in remote server (alrady ssh)  
 conda activate my_env  
 jupyter notebook --no-browser --ip 172.20.46.157 --port ***YYYY*** --allow-root  
@@ -25,3 +33,5 @@ jupyter lab --no-browser --port=***YYYY*** --allow-root
 ssh -N -f -L localhost:***XXXX***:localhost:***YYYY*** root@172.20.46.157  
 
 then localhost:***XXXX*** on web browser
+
+
