@@ -21,6 +21,13 @@ cd /data/prepaid
 jupyter lab --config jupyter_notebook_config.py --allow-root --no-browser  
 http://172.20.46.157:8888/  
 
+#### or start nohup(background)
+cd /data/prepaid  
+nohup jupyter lab --config jupyter_notebook_config.py --allow-root --no-browser &  
+**when you want to end**  
+jupyter notebook list  
+netstat -tulpn|grep 8888  
+kill PID  
 
 
 ## obsolete
